@@ -149,7 +149,7 @@ describe('Calculate the average of an array of numbers', () => {
   });
 });
 
-describe('Calculate the average of an array of strings', () => {
+   describe('Calculate the average of an array of strings', () => {
   it('should create a function named averageWordLength', () => {
     expect(typeof averageWordLength).toBe('function');
   });
